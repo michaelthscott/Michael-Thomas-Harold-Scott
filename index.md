@@ -1,1 +1,4 @@
-Michael Thomas Harold Scott
+---
+layout:    home
+---
+![Michael Runnning](assets/images/thomas-harold.jpg)
