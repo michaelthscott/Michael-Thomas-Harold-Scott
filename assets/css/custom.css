@@ -75,18 +75,6 @@ header .wrapper nav a:first-child {
     display: flex;
   }
 }
-.study-title {
-    font-size: 24px;
-    letter-spacing: -0.5px;
-    line-height: 1.2;
-    color: #666;
-}
-.sketch-title {
-    font-size: 24px;
-    letter-spacing: -0.5px;
-    line-height: 1.2;
-    color: #666;
-}
 .breadcrumb {
   font-size: 0.85rem;
   margin: 0 0 0.75em 0;
