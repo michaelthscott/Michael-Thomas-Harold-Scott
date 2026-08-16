@@ -3,13 +3,13 @@ layout: default
 ---
 <article class="post">
   <header class="post-header">
-    {% if page.layout == "chapter" %}
+    {% if page.layout == "subject" %}
       <nav class="breadcrumb"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></nav>
     {% elsif page.layout == "section" %}
-      {% assign chapter = site.Chapters | where: "series", page.collection | first %}
+      {% assign subject = site.Subjects | where: "series", page.collection | first %}
       <nav class="breadcrumb">
         <a href="{{ '/' | relative_url }}">{{ site.title }}</a> /
-        <a href="{{ chapter.url | relative_url }}">{{ chapter.title }}</a>
+        <a href="{{ chapter.url | relative_url }}">{{ subject.title }}</a>
       </nav>
     {% endif %}
     <h1 class="post-title">{{ page.title | escape }}</h1>
