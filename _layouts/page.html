@@ -5,11 +5,11 @@ layout: default
   <header class="post-header">
     {% if page.layout == "subject" %}
       <nav class="breadcrumb"><a href="{{ '/' | relative_url }}">{{ site.title }}</a></nav>
-    {% elsif page.layout == "section" %}
+    {% elsif page.layout == "aspect" %}
       {% assign subject = site.Subjects | where: "series", page.collection | first %}
       <nav class="breadcrumb">
         <a href="{{ '/' | relative_url }}">{{ site.title }}</a> /
-        <a href="{{ chapter.url | relative_url }}">{{ subject.title }}</a>
+        <a href="{{ subject.url | relative_url }}">{{ subject.title }}</a>
       </nav>
     {% endif %}
     <h1 class="post-title">{{ page.title | escape }}</h1>
