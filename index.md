@@ -1,4 +1,4 @@
 ---
-layout:    home
+layout: home
 ---
-![Michael Runnning](assets/images/thomas-harold.jpg)
+{% include series-list.html collection="Subjects" %}

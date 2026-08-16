@@ -1,0 +1,13 @@
+---
+layout: page
+---
+<article class="aspect">
+  {% if page.image %}
+    <img src="{{ page.image | relative_url }}" alt="{{ page.title }}" class="aspect-image">
+  {% endif %}
+  <div class="aspect-content">
+    {{ content }}
+  </div>
+  
+  {% include prev-next.html collection=page.collection %}
+</article>
