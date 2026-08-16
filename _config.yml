@@ -2,3 +2,20 @@ title: Michael Thomas Harold Scott
 description: 1954-2054 – A Centenial Celebration
 author: Michael T. H. Scott
 theme: minima
+collections:
+  Subjects:
+    output: true
+  Childhood:
+    output: true
+  Cinema:
+    output: true
+  Mathematics:
+    output: true
+  Music:
+    output: true
+  Name:
+    output: true
+  Painting:
+    output: true
+  Writing:
+    output: true
